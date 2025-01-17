@@ -279,7 +279,7 @@ Task {
 - Declare a wallet provider type and conform the protocol [WalletProvider](./Sources/FCL-SDK/WalletProvider/WalletProvider.swift).
 - If building a wallet involve back channel communication, read the [wallet guide](https://github.com/onflow/fcl-js/blob/master/packages/fcl/src/wallet-provider-spec/draft-v3.md) first to build the concept of the implementation and use method from `WalletProvider` to fulfill your business logic.
 
-Every walllet provider can use below property from `WalletProvider` to customize icon, title and description. Those info will be shown [here](#wallet-selection).
+Every wallet provider can use below property from `WalletProvider` to customize icon, title and description. Those info will be shown [here](#wallet-selection).
 ```
 var providerInfo: ProviderInfo { get }
 ```

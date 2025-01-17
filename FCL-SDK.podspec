@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Dawson' => 'dawson@portto.com', 'Scott' => 'scott@portto.com' }
   s.source           = { :git => 'https://github.com/portto/fcl-swift.git', :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/BloctoApp'
+  s.social_media_url = 'https://x.com/BloctoApp'
 
   s.swift_version = '5.0.0'
   s.ios.deployment_target = '13.0'
